@@ -10,5 +10,7 @@ describe("<GuessForm />", () => {
 
   it("Renders Feedback properly", () => {
     const feedback = "leg";
+    const wrapper = shallow(<Feedback feedback={feedback} guessCount="0" />);
+    expect(wrapper.contains(feedback)).toBe(true);
   });
 });

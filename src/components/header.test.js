@@ -1,7 +1,9 @@
-import React from 'react';
-import {shallow} from 'enzyme';
-import Header from './header';
+import React from "react";
+import { shallow } from "enzyme";
+import Header from "./header";
 
- it('Renders Header without crashing', () => {
-   shallow(<Header/>);  
- });
+describe("<Header />", () => {
+  it("Renders Header without crashing", () => {
+    shallow(<Header />);
+  });
+});
