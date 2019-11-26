@@ -9,4 +9,7 @@ describe('<GuessForm />', () => {
    shallow(<StatusSection guesses={[0]}/>);  
  });
 
+ // this is only a container for other components
+ // => there is no state/props/interactivity to test
+
 });
